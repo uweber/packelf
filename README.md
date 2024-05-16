@@ -3,19 +3,10 @@
 ## usage
 
 ```
-packelf.sh <ELF_SRC_PATH> <DST_PATH> [ADDITIONAL_LIBS ...]
+packelf.sh [-c <CACHE_DIR>] <ELF_SRC_PATH> <DST_PATH> [ADDITIONAL_LIBS ...]
 ```
 
 Requirements on the machine: `touch`, `tar`, `sh` and `mktemp`
-
-```
-packelf-kf.sh <ELF_SRC_PATH> <DST_PATH> [ADDITIONAL_LIBS ...]
-```
-
-Requirements on the machine: `tar`, `sh` and `mkdir`
-
-This other version doens't extract everytime the package if already exists.
-Perfect for tiny packages.
 
 ## how works
 
